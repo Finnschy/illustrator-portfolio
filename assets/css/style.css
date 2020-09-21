@@ -7,9 +7,13 @@ font-family: 'Merriweather', serif; */
 color: #fff;
 color: #F5FBFE; */
 
+body {
+    position: relative;
+}
+
 section {
-    /* border: 1px solid black; */
-    height: 100vh;
+/*     border: 1px solid black; */
+    min-height: 100vh;
     position: relative;
 }
 
@@ -65,7 +69,7 @@ p {
 
 div {
     /* border: 5px solid green; */
-    height: 70vh;
+    min-height: 70vh;
     width: 900px;
     position: absolute;
     top: 0;
@@ -88,26 +92,26 @@ div {
 }
 
 
-ul {
+.nav {
     list-style: none;
     text-align: right;
     font-family: 'Lato', sans-serif;
     
 }
 
-li {
+.nav li {
     display: inline;
     
 }
 
-li a {
+.nav li a {
     text-decoration: none;
     color: #202020;
     padding-left: 20px;
 }
 
 .center-section {
-    height: 40vh;
+    min-height: 40vh;
     width: 50%;
     margin: 0 auto;
     text-align: center;
@@ -115,14 +119,18 @@ li a {
 }
 
 .center-section2 {
-    height: 40vh;
+    min-height: 40vh;
     width: 50%;
     margin: 0 auto;
     text-align: center;
     margin-top: 500px;
     margin-bottom: -100px;
+
 }
 
+.center-section3 {
+    margin-top: 0px;
+}
 
 img {
     height: 45vh;
@@ -147,3 +155,73 @@ img {
 .examples {
     margin: 44px;
 }
+
+#membership-box {
+/*     border: 1px solid green; */
+    background: #F5FBFE;
+    min-height: 90vh;
+    width: 30vw;
+    top: 350px;
+    left: calc(50% - 15vw);
+    padding-top: 50px;
+
+
+}
+
+#membership-box ul {
+    list-style: none;
+    font-family: 'Merriweather', serif;
+    line-height: 30px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+
+#per-year {
+    font-family: 'Merriweather', serif;
+    color: #20202054;
+}
+
+#member-button {
+    text-decoration: none;
+    color: #202020;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    background: #24bff2;
+    border-radius: 5px;
+    padding: 20px 70px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.center-section2 article {
+/*     border: 1px solid orange; */
+    min-height: 150vh;
+}
+
+footer {
+/*     border: 1px solid blueviolet; */
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    
+}
+
+footer ul li {
+    list-style: none;
+}
+
