@@ -40,6 +40,7 @@ p {
     color: #202020;
     margin-top: -20px;
     margin-bottom: 50px;
+    line-height: 30px;
 }
 
 .button-dark , .button-light {
@@ -103,4 +104,46 @@ li a {
     text-decoration: none;
     color: #202020;
     padding-left: 20px;
+}
+
+.center-section {
+    height: 40vh;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -150px;
+}
+
+.center-section2 {
+    height: 40vh;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 500px;
+    margin-bottom: -100px;
+}
+
+
+img {
+    height: 45vh;
+
+}
+
+#img-left {
+    position: absolute;
+    left: 50px;
+}
+
+#img-center {
+    position: absolute;
+    left: 510px;
+}
+
+#img-right {
+    position: absolute;
+    right: 50px;
+}
+
+.examples {
+    margin: 44px;
 }
